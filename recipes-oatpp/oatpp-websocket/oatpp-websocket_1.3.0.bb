@@ -22,6 +22,8 @@
 #
 #############################################################################
 
-DESCRIPTION = "Oat++ Websocket" 
+DESCRIPTION = "Oat++ Websocket"
 inherit oatpp-module
+
+SRCREV = "62cc5df6b761699ced70f9a719ce701db1bb0a07"
 

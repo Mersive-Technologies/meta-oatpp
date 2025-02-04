@@ -22,7 +22,9 @@
 #
 #############################################################################
 
-DESCRIPTION = "Oat++ SQLite" 
+DESCRIPTION = "Oat++ SQLite"
 inherit oatpp-module
 
-DEPENDS_append = " sqlite3"
+SRCREV = "85f7eee5a6a0dcdb225db73c90c0d269ea8a538c"
+
+DEPENDS:append = " sqlite3"

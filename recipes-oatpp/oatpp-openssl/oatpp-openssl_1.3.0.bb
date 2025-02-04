@@ -22,7 +22,9 @@
 #
 #############################################################################
 
-DESCRIPTION = "Oat++ OpenSSL" 
+DESCRIPTION = "Oat++ OpenSSL"
 inherit oatpp-module
 
-DEPENDS_append = " openssl"
+SRCREV = "10a9745f9d28d0a031b263054698fdf63d95548b"
+
+DEPENDS:append = " openssl"
