@@ -22,7 +22,9 @@
 #
 #############################################################################
 
-DESCRIPTION = "Oat++ PostgreSQL" 
+DESCRIPTION = "Oat++ PostgreSQL"
 inherit oatpp-module
 
-DEPENDS_append = " postgresql"
+SRCREV = "447a8debd5eed360679160a63c8024779f6188e8"
+
+DEPENDS:append = " postgresql"

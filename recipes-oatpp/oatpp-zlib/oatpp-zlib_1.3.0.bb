@@ -22,7 +22,9 @@
 #
 #############################################################################
 
-DESCRIPTION = "Oat++ zlib" 
+DESCRIPTION = "Oat++ zlib"
 inherit oatpp-module
 
-DEPENDS_append = " zlib"
+SRCREV = "0b6aa3603dee60b3a004f8ca0cf09e041de37386"
+
+DEPENDS:append = " zlib"
